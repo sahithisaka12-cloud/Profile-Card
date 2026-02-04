@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="2.css">
+</head>
+<body>
+
+<div class="card">
+    <img src="image copy.png" alt="Profile">
+    <h2>Sahithi</h2>
+    <p>web developer</p>
+
+    <p>
+        📧 <a href="mailto:sahithi12@gmail.com">sahithi12@gmail.com</a>
+    </p>
+    <p>
+        📞 <a href="tel:+7396652757">7396652757</a>
+    </p>
+    <p>📍hyderabad, maisammaguda</p>
+
+    <div class="buttons">
+        <button onclick="openLinkedIn()">LinkedIn</button>
+        <button onclick="openProjects()">Projects</button>
+        <button onclick="contactMe()">Contact</button>
+    </div>
+</div>
+
+<script>
+    function openLinkedIn() {
+        alert("Opening LinkedIn profile...");
+        // window.open("https://linkedin.com", "_blank");
+    }
+
+    function openProjects() {
+        alert("Opening Projects...");
+        // window.location.href = "projects.html";
+    }
+
+    function contactMe() {
+        alert("Contact button clicked!");
+    }
+</script>
+
+</body>
+</html>
